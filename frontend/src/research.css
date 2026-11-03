@@ -1,0 +1,185 @@
+/* Hallmark · shape: app screen · genre: editorial · theme: Specimen, warm accent by user request · redesign: full
+ * nav: kept workspace shell · signature: project archive and screenshot inbox · states: loading, empty, error, full
+ * axes: light/serif/warm · posture: restrained · v2.0.0 */
+/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: H, flattened stat cards into a ruled archive ledger */
+/* Hallmark · reworded decorative English labels into the existing Chinese workspace headings · 54 and 67 remove eyebrows and tracked capitals */
+
+.research-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  margin-top: var(--space-lg);
+  padding: var(--space-md) var(--space-lg);
+  border: 1px solid var(--color-paper-2);
+  border-radius: 9px;
+  background: var(--color-paper);
+}
+.research-banner h3,
+.research-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--color-muted);
+  font-size: 14px;
+}
+.research-banner p {
+  font-size: 13px;
+  color: var(--color-muted);
+  margin-top: var(--space-2xs);
+  line-height: 1.8;
+}
+.research-panel {
+  border: 1px solid var(--color-paper-2);
+  border-radius: 8px;
+  background: var(--color-paper-raised);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.auto-confirm-panel {
+  border-color: var(--color-paper-3);
+  background: var(--color-paper);
+}
+.auto-confirm-result {
+  margin-top: var(--space-sm);
+}
+.github-token-form {
+  border-top: 1px solid var(--color-paper-2);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+}
+.github-token-form h3 { margin-bottom: var(--space-xs); }
+.github-token-form .muted { margin: var(--space-xs) 0; line-height: 1.8; }
+.github-token-form > a { margin-bottom: var(--space-sm); }
+.computer-use-status { background: var(--color-paper); border: 1px solid var(--color-paper-2); border-radius: 7px; padding: var(--space-sm); margin: var(--space-sm) 0; }
+.computer-use-status > p:first-child { display: flex; align-items: center; gap: var(--space-xs); }
+.computer-use-status .muted { margin: var(--space-xs) 0; line-height: 1.8; }
+.computer-use-status details { margin: var(--space-xs) 0; }
+.research-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-xs);
+}
+.research-heading .pill {
+  font-size: 13px;
+}
+.research-panel > .muted {
+  font-size: 13px;
+  line-height: 1.9;
+  margin-bottom: var(--space-sm);
+}
+.research-panel > .btn {
+  font-size: 13px;
+}
+.research-progress {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  background: var(--color-paper);
+  color: var(--color-muted);
+  border-radius: 5px;
+  padding: var(--space-xs) var(--space-sm);
+  font-size: 13px;
+  margin-top: var(--space-sm);
+}
+.research-progress.failed {
+  background: var(--color-paper);
+  color: var(--color-muted);
+}
+.research-panel h4 {
+  font-size: 13px;
+  color: var(--color-muted);
+  margin: var(--space-md) 0 var(--space-xs);
+}
+.research-findings ul {
+  margin: 0;
+  padding-left: var(--space-md);
+  font-size: 13px;
+  color: var(--color-muted);
+  line-height: 1.9;
+}
+.research-findings p {
+  font-size: 13px;
+  color: var(--color-rule-2);
+  line-height: 1.9;
+  margin-top: var(--space-xs);
+  overflow-wrap: anywhere;
+}
+.research-projects article {
+  margin: var(--space-xs) 0;
+  padding: var(--space-sm);
+  border: 1px solid var(--color-paper-2);
+  border-radius: 6px;
+  background: var(--color-paper-raised);
+}
+.research-projects b {
+  font-size: 13px;
+  color: var(--color-muted);
+  overflow-wrap: anywhere;
+}
+.research-projects article p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--color-muted);
+  margin: var(--space-2xs) 0;
+}
+.research-projects small {
+  font-size: 13px;
+  color: var(--color-rule-2);
+}
+.research-projects article > div {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+  margin-top: var(--space-xs);
+}
+.research-projects article a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  font-size: 13px;
+  color: var(--color-muted);
+}
+.research-panel .research-function {
+  font-size: 13px;
+  color: var(--color-rule-2);
+}
+.research-sources {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-top: var(--space-xs);
+}
+.research-sources a {
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.research-conclusion {
+  font-size: 13px;
+  color: var(--color-muted);
+  margin-top: var(--space-sm);
+  padding-top: var(--space-xs);
+  border-top: 1px solid var(--color-paper-2);
+}
+.status-researching {
+  background: var(--color-paper);
+  border-color: var(--color-paper-2);
+  color: var(--color-muted);
+}
+@media (max-width: 800px) {
+  .research-banner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: var(--space-md);
+    gap: var(--space-md);
+  }
+  .research-banner .btn {
+    align-self: flex-end;
+  }
+  .research-heading h3 {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,16 @@
+.venv
+.runtime
+data
+.git
+.env
+frontend/node_modules
+frontend/dist
+__pycache__
+.pytest_cache
+.hallmark
+.codex
+frontend/test-results
+frontend/playwright-report
+docs/*-2026-*.md
+docs/开发进度.md
+scripts/hallmark_preview.py

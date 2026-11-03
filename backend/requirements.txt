@@ -1,0 +1,13 @@
+fastapi>=0.162,<1
+starlette>=1.10,<2
+uvicorn[standard]>=0.32,<1
+sqlalchemy>=2.0,<3
+httpx>=0.28,<1
+pillow>=13.0,<14
+python-multipart>=0.0.20,<1
+pydantic-settings>=2.7,<3
+itsdangerous>=2.2,<3
+qrcode[pil]>=8,<9
+psycopg[binary]>=3.2,<4
+pytest>=8,<10
+playwright>=1.50,<2
